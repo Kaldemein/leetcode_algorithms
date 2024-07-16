@@ -7,7 +7,6 @@ import (
 
 func isPalindrome(x int) bool {
 	number := strconv.Itoa(x)
-	fmt.Printf("%s\n", number)
 	left := 0
 	right := len(number) - 1
 
