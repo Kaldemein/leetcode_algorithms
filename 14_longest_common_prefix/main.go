@@ -16,7 +16,6 @@ func longestCommonPrefix(strs []string) string {
 
 	}
 	return current_pref
-
 }
 
 func main() {
